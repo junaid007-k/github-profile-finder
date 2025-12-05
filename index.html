@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Lookup</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- AXIOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">GitHub Profile Lookup</h1>
+
+        <div class="search-box">
+            <input type="text" id="username" placeholder="Enter GitHub username (e.g. torvalds)">
+            <button onclick="getProfile()">Search</button>
+        </div>
+
+        <div id="profile"></div>
+        <div id="repos"></div>
+        <p id="error"></p>
+    </div>
+
+    <!-- JS FILE -->
+    <script src="script.js"></script>
+</body>
+</html>
+
