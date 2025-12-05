@@ -1,10 +1,8 @@
-/* styles.css — Dark Futuristic / Neon Cyberpunk theme
-   Overwrite your existing styles.css with this file.
-*/
 
-/* =========================
+
+/*
    Variables
-   ========================= */
+   */
 :root{
   --bg-1: #02030a;
   --bg-2: #071028;
@@ -27,9 +25,8 @@
   * { animation: none !important; transition: none !important; }
 }
 
-/* =========================
-   Reset & Base
-   ========================= */
+/*
+   Reset & Base */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html,body { height: 100%; }
 body {
@@ -55,9 +52,7 @@ body {
 }
 body { animation: bgShift 22s ease-in-out infinite; background-size: 200% 200%, 200% 200%, cover; }
 
-/* =========================
-   Layout container
-   ========================= */
+/* Layout container */
 .container {
   width: 100%;
   max-width: var(--max-width);
@@ -68,9 +63,7 @@ body { animation: bgShift 22s ease-in-out infinite; background-size: 200% 200%, 
   justify-items: center;
 }
 
-/* =========================
-   Neon Header
-   ========================= */
+/* Neon Header */
 .title {
   display:flex;
   align-items:center;
@@ -168,9 +161,9 @@ body { animation: bgShift 22s ease-in-out infinite; background-size: 200% 200%, 
 }
 .search-box button { animation: breathe 5.6s ease-in-out infinite; }
 
-/* =========================
+/*
    Profile card — holographic glass
-   ========================= */
+   */
 #profile { display:flex; justify-content:center; margin-top:6px; }
 .profile-card {
   width: 100%;
@@ -314,9 +307,7 @@ body { animation: bgShift 22s ease-in-out infinite; background-size: 200% 200%, 
 /* meta icon small */
 .meta-pill svg, .meta-pill i { font-size: 12px; opacity: 0.9; color: var(--neon-cyan); }
 
-/* =========================
-   Error & Loading
-   ========================= */
+/*  Error & Loading */
 #error {
   color: #ff9db8;
   font-weight: 900;
@@ -357,3 +348,4 @@ body { animation: bgShift 22s ease-in-out infinite; background-size: 200% 200%, 
   .meta-pill { padding: 5px 8px; font-size:12px; }
   .repo-item { padding: 10px 12px; }
 }
+
